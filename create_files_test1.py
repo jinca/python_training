@@ -3,4 +3,8 @@ import pandas as pd
 import os
 import sys
 
-INPUT = "/home/yulytas/python_training/test1.txt" open
+f = open("/home/yulytas/python_training/test1.txt")
+
+for i in f:
+    print (i)
+
