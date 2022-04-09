@@ -39,4 +39,6 @@ d = root.as_dict()['root']
 for i in d:
     for x,y in i.items():
         for a in y:
-            print(x,a)
+            with open(x,a".txt","x") as file
+            file.close()
+          
